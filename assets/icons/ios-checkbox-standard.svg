@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="416px" height="416px" viewBox="0 0 416 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ios-add-circle-outline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ios-add-circle-outline" fill="#000000" fill-rule="nonzero">
+            <path d="M208,28 C256.1,28 301.3,46.7 335.3,80.7 C369.3,114.7 388,159.9 388,208 C388,256.1 369.3,301.3 335.3,335.3 C301.3,369.3 256.1,388 208,388 C159.9,388 114.7,369.3 80.7,335.3 C46.7,301.3 28,256.1 28,208 C28,159.9 46.7,114.7 80.7,80.7 C114.7,46.7 159.9,28 208,28 Z M208,0 C93.1,0 0,93.1 0,208 C0,322.9 93.1,416 208,416 C322.9,416 416,322.9 416,208 C416,93.1 322.9,0 208,0 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

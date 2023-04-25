@@ -1,0 +1,21 @@
+diff --git a/node_modules/expo-in-app-purchases/ios/EXInAppPurchases/EXInAppPurchasesModule.m b/node_modules/expo-in-app-purchases/ios/EXInAppPurchases/EXInAppPurchasesModule.m
+index 3ef03cc..9c00048 100644
+--- a/node_modules/expo-in-app-purchases/ios/EXInAppPurchases/EXInAppPurchasesModule.m
++++ b/node_modules/expo-in-app-purchases/ios/EXInAppPurchases/EXInAppPurchasesModule.m
+@@ -324,6 +324,7 @@ - (NSDictionary *)getProductData:(SKProduct *)product
+   NSDecimalNumber *priceAmountMicros = [product.price decimalNumberByMultiplyingBy:oneMillion];
+   NSString *price = [NSString stringWithFormat:@"%@%@", product.priceLocale.currencySymbol, product.price];
+   NSString *description = product.localizedDescription ?: @"";
++  NSString *title = product.localizedTitle ?: @"";
+
+   return @{
+            @"description": description,
+@@ -332,7 +333,7 @@ - (NSDictionary *)getProductData:(SKProduct *)product
+            @"priceCurrencyCode": product.priceLocale.currencyCode,
+            @"productId": product.productIdentifier,
+            @"subscriptionPeriod": subscriptionPeriod,
+-           @"title": product.localizedTitle,
++           @"title": title,
+            @"type": type
+            };
+ }
